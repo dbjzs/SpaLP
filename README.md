@@ -39,13 +39,14 @@ See full list in requirements.txt file. SpaLP can be run on CPU or GPU.
 
 ## Tutorial
 Check out our readthedocs, which includes tutorials for four analyses:  
-All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)
+All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)  
 
+Training SpaLP by following the tutorials should take <1 minute.  
 ## Data
 In this paper, we tested 1 simulation datasets and 18 
 
 ### Fig2
-640,000 cells Simulation data [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)  
+*640,000 cells Simulation data [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)  
 Xenium Breast Cancer Data [Xenium_Breast_Cancer.h5ad](https://drive.google.com/open?id=1StPUArtCFN0oyQLoKN6gQ8n9WlWIAkDl&usp=drive_fs)  
 CosMx Mouse Brain [CosMxMouseBrain.h5ad](https://drive.google.com/open?id=11aHibK5ZpmI7Ogoru2Y3vDMafP4TTP11&usp=drive_fs)
 ### Fig3
