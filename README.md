@@ -82,6 +82,14 @@ Training SpaLP by following the tutorials should take <1 minute.
 | Xenium multi-omics renal cell carcinoma     | [RNA.h5ad](https://drive.google.com/open?id=1ax2M_z6VX3fEZqpCpfy3RMVyAb76GP7n&usp=drive_fs)     |465,545|396 genes |28s|Xenium|
 | Xenium multi-omics renal cell carcinoma     | [Protein.h5ad](https://drive.google.com/open?id=137Kw_5MDjEKD23zfH6u6_fKTBCqfjSFJ&usp=drive_fs)     |465,545|27 proteins |28s|Xenium|
 
+###  Exntend Data Fig3
+|   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
+|-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
+| CODEX mouse spleen     | [BALBc-1.h5ad](https://drive.google.com/open?id=1k56uujBkFX0dgtN8GfAX2rdSuXBW7GWI&usp=drive_fs)         |82,251|30 proteins|13s|CODEX|
+| CODEX mouse spleen     | [BALBc-2.h5ad](https://drive.google.com/open?id=1Uh8H9yR_G8ZzFzQbxX-G28s5rdov7PaB&usp=drive_fs)         |81,346|30 proteins|12s|CODEX|
+| CODEX mouse spleen     | [BALBc-3.h5ad](https://drive.google.com/open?id=106MHMrFNNWp3ouAqy5A4CLIWhx3k6IGD&usp=drive_fs)         |80,636|30 proteins|12s|CODEX|
+
+
 
 ## Dependencies
 You'll need to install the following packages in order to run the codes.
