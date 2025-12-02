@@ -40,6 +40,7 @@ Training SpaLP by following the tutorials should take <1 minute.
 | Stereo CITE-seq mouse spleen     | [Stereo_CITE-seq.h5ad](https://drive.google.com/open?id=1VkSMlaeBz020JGZHxVNqW-MKDUmlAaS_&usp=drive_fs)          |
 
 ####  Fig4
++ within-platform
 |   Title                     | Download Link                                                                 |
 |-----------------------------|----------------------------------------------------------------------|
 | Coronal mouse brain integration     | [merscope.h5ad](https://drive.google.com/open?id=15L9-qwdgLPdw6A8q2vMjY5nMCwu9J89w&usp=drive_fs)          |
