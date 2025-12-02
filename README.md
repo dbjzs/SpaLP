@@ -26,11 +26,11 @@ Training SpaLP by following the tutorials should take <1 minute.
 ## 📁 Tutorial h5ad file
 ###  Fig2
 
-|   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|
-|-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|
-| 640,000 cells Simulation data | [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)       |640,000|31,493|52s|
-| Xenium Breast Cancer Data     | [Xenium_Breast_Cancer.h5ad](https://drive.google.com/open?id=1StPUArtCFN0oyQLoKN6gQ8n9WlWIAkDl&usp=drive_fs) |167,780|313|7s|
-| CosMx Mouse Brain     | [CosMxMouseBrain.h5ad](https://drive.google.com/open?id=11aHibK5ZpmI7Ogoru2Y3vDMafP4TTP11&usp=drive_fs)          |48180 |950|7s|
+|   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
+|-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
+| 640,000 cells Simulation data | [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)       |640,000|31,493|52s|Simulation|
+| Xenium Breast Cancer Data     | [Xenium_Breast_Cancer.h5ad](https://drive.google.com/open?id=1StPUArtCFN0oyQLoKN6gQ8n9WlWIAkDl&usp=drive_fs) |167,780|313|7s|Xenium|
+| CosMx Mouse Brain     | [CosMxMouseBrain.h5ad](https://drive.google.com/open?id=11aHibK5ZpmI7Ogoru2Y3vDMafP4TTP11&usp=drive_fs)          |48180 |950|7s|CosMx|
 
 ###  Fig3
 |   Title                     | Download Link                                                                 |
