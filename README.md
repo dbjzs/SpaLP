@@ -26,7 +26,7 @@ All the result tutorials mentioned in the text can be found [Tutorial](https://s
 Training SpaLP by following the tutorials should take <1 minute.  
 
 ## 📁 Tutorial h5ad file
-###  Fig2
+###  🖼️Fig2
 
 |   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
@@ -34,14 +34,14 @@ Training SpaLP by following the tutorials should take <1 minute.
 | Xenium Breast Cancer Data     | [Xenium_Breast_Cancer.h5ad](https://drive.google.com/open?id=1StPUArtCFN0oyQLoKN6gQ8n9WlWIAkDl&usp=drive_fs) |167,780|313 genes|7s|Xenium|
 | CosMx Mouse Brain     | [CosMxMouseBrain.h5ad](https://drive.google.com/open?id=11aHibK5ZpmI7Ogoru2Y3vDMafP4TTP11&usp=drive_fs)          |48,180 |950 genes|7s|CosMx|
 
-###  Fig3
+###  🖼️Fig3
 |   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
 | 1.35Million Mouse_Tissue     | [Million_Mouse_Tissue.h5ad](https://drive.google.com/open?id=10XtS2L9UgGLqnkPBhJ6UIYdgZ5BICwp5&usp=drive_fs)         |1,355,849|379 genes|47s|Xenium|
 | Stereo-seq mouse testes     | [testis.h5ad](https://drive.google.com/open?id=1li92sr3lFebNXjuAP1YOwMZzlKSOA66z&usp=drive_fs)          |198,248|27,869 genes|24s|Stereo-seq V1.3|
 | Stereo CITE-seq mouse spleen     | [Stereo_CITE-seq.h5ad](https://drive.google.com/open?id=1VkSMlaeBz020JGZHxVNqW-MKDUmlAaS_&usp=drive_fs)          |295,215|128 proteins|14s|Stereo CITE-seq|
 
-###  Fig4
+###  🖼️Fig4
 + within-platform integration
 
 |   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
@@ -68,7 +68,7 @@ Training SpaLP by following the tutorials should take <1 minute.
 | Cross-platform colorectal cancer | [VisiumHD_P5.h5ad](https://drive.google.com/file/d/1Rs_BJ2Q9rankWc5zemj0Qbt0Q5fv0bnj/view?usp=drive_link)  |541,968|18,085 genes|57s|Visium HD|
 
 
-###  Fig5
+###  🖼️Fig5
 |   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
 | 8.4 million cells Mouse Brain Atlas     | [MERFISH_animal1.h5ad](https://drive.google.com/open?id=1a1dx_e1HWUSNjrLCh3yV3lfr5T0ve07t&usp=drive_fs)         |4,167,869|1122 genes|3min 41s|MERFISH|
@@ -76,7 +76,7 @@ Training SpaLP by following the tutorials should take <1 minute.
 | 8.4 million cells Mouse Brain Atlas     | [MERFISH_animal3_sagittal.h5ad](https://drive.google.com/open?id=1arMwpcExaPCWZGggGFCZ3KDmTydNXNbM&usp=drive_fs)          |2,081,549|1122 genes|3min 41s|MERFISH|
 | 8.4 million cells Mouse Brain Atlas     | [MERFISH_animal4.h5ad](https://drive.google.com/open?id=1KW5HgTE3zthYJZ5SnhIBV1LOyiYUN8xv&usp=drive_fs)          |215,278|1122 genes|3min 41s|MERFISH|
 
-###  Fig6
+###  🖼️Fig6
 |   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
 | CosMx Kidney cancer     | [cosmx_kidney.h5ad](https://drive.google.com/file/d/1BaG2ICkXSJ8MSuun9-gMFBYZYAJu_G0D/view?usp=drive_link)         |1,236,281|1000 genes|1min 03s|CosMx|
@@ -84,7 +84,7 @@ Training SpaLP by following the tutorials should take <1 minute.
 | Xenium multi-omics renal cell carcinoma     | [RNA.h5ad](https://drive.google.com/open?id=1ax2M_z6VX3fEZqpCpfy3RMVyAb76GP7n&usp=drive_fs)     |465,545|396 genes |28s|Xenium|
 | Xenium multi-omics renal cell carcinoma     | [Protein.h5ad](https://drive.google.com/open?id=137Kw_5MDjEKD23zfH6u6_fKTBCqfjSFJ&usp=drive_fs)     |465,545|27 proteins |28s|Xenium|
 
-###  Exntend Data Fig3
+###  🖼️Exntend Data Fig3
 |   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
 | CODEX mouse spleen     | [BALBc-1.h5ad](https://drive.google.com/open?id=1k56uujBkFX0dgtN8GfAX2rdSuXBW7GWI&usp=drive_fs)         |82,251|30 proteins|13s|CODEX|
