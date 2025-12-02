@@ -46,7 +46,7 @@ Training SpaLP by following the tutorials should take <1 minute.
 In this paper, we tested 1 simulation datasets and 18 
 
 ### Fig2
-*640,000 cells Simulation data [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)  
+* 640,000 cells Simulation data [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)  
 Xenium Breast Cancer Data [Xenium_Breast_Cancer.h5ad](https://drive.google.com/open?id=1StPUArtCFN0oyQLoKN6gQ8n9WlWIAkDl&usp=drive_fs)  
 CosMx Mouse Brain [CosMxMouseBrain.h5ad](https://drive.google.com/open?id=11aHibK5ZpmI7Ogoru2Y3vDMafP4TTP11&usp=drive_fs)
 ### Fig3
