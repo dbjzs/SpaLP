@@ -5,16 +5,19 @@ A novel, ultrafast and general embedding framework for large-scale spatial omics
 You'll need to install the following packages in order to run the codes.
 * Python==3.10.13
 * libopenblas==0.3.25
-* anndata==0.10.5.post1
-* numpy==1.26.3
-* pandas==2.2.3
 * scanpy==1.9.8
 * torch==2.2.0
 * torch_geometric==2.4.0
-* scikit-learn==1.4.0
 * scipy==1.12.0
+* pandas==2.2.3
+* scikit-learn==1.4.0
+* numpy==1.26.3
+* numba==0.59.0
+* llvmlite==0.42.0
+* anndata==0.10.5.post1
+* leidenalg==0.10.2
+* igraph==0.11.8
 * scikit-misc==0.5.1
-
 
 
 ## Tutorial
@@ -38,8 +41,6 @@ VisiumHD Tonsil integration [FreshFrozenVisiumHDP1.h5ad](https://drive.google.co
 
 Cross-platform Mouse Brain Integration [MERFISH.h5ad](https://drive.google.com/open?id=16UYRCGe6K5FAMYhoL2-2l7B8mYeCknQq&usp=drive_fs) , [STARmapPLUS.h5ad](https://drive.google.com/open?id=12cl4ToVZ8AosPshu_NVgmwegFUlY-Ol6&usp=drive_fs) and [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)  
 Cross-platform colorectal cancer integration [CosMx.h5ad](https://drive.google.com/open?id=1IFnZ6zLNpIe9edVPiVAlktSmQBUFxcEc&usp=drive_fs) , [Xeniump1.h5ad](https://drive.google.com/open?id=1k6F_FSWnOVQWhgszttQduiTMl5ULA0AC&usp=drive_fs) , [VisiumHD_P1.h5ad](https://drive.google.com/file/d/1OX_feTaU8NYL9_CFjQIGG4jrN-slvknT/view?usp=sharing) , [VisiumHD_P2.h5ad](https://drive.google.com/file/d/1qDWPERNYxaKzYZQd9wG0or2g0SKiKNtX/view?usp=drive_link) and [VisiumHD_P5.h5ad](https://drive.google.com/file/d/1Rs_BJ2Q9rankWc5zemj0Qbt0Q5fv0bnj/view?usp=drive_link)
-
-
 
 
 
