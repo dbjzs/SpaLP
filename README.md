@@ -20,7 +20,8 @@ pip install .
 ```
 
 ## 🚀Getting started Tutorial
-Check out our readthedocs, which includes tutorials for four analyses: Single sample tutorial, Multi sample Integration tutorial, Multi-omics tutorial, Cross-platform generalization
+Check out our readthedocs, which includes tutorials for four analyses:  
+Single sample tutorial, Multi sample Integration tutorial, Multi-omics tutorial, Cross-platform generalization
 All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)  
 
 Training SpaLP by following the tutorials should take <1 minute.  
