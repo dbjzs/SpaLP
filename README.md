@@ -19,7 +19,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install .
 ```
 
-## 🚀Get Start Tutorial
+## 🚀Getting started Tutorial
 Check out our readthedocs, which includes tutorials for four analyses: Single sample tutorial, Multi sample Integration tutorial, Multi-omics tutorial, Cross-platform generalization
 All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)  
 
