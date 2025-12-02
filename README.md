@@ -40,23 +40,32 @@ Training SpaLP by following the tutorials should take <1 minute.
 | Stereo CITE-seq mouse spleen     | [Stereo_CITE-seq.h5ad](https://drive.google.com/open?id=1VkSMlaeBz020JGZHxVNqW-MKDUmlAaS_&usp=drive_fs)          |295,215|128 proteins|14s|Stereo CITE-seq|
 
 ###  Fig4
-+ within-platform
++ within-platform integration
 
 |   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
-| Coronal mouse brain integration     | [merscope.h5ad](https://drive.google.com/open?id=15L9-qwdgLPdw6A8q2vMjY5nMCwu9J89w&usp=drive_fs)  |734,696|483 genes|47s|MERSCOPE|
-| Sagittal mouse brain integration     | [starmap_plus_mouse_cns_batch1.h5ad](https://drive.google.com/open?id=12caAILqWOjDNKiaSYuz9-XMp3bN6CDjA&usp=drive_fs)  |91,246|1022 genes|30s|STARmap PLUS|
-| Sagittal mouse brain integration     | [starmap_plus_mouse_cns_batch2.h5ad](https://drive.google.com/open?id=1p3x0_JdCpcjV9AhusrW3OO-y-7lyPRcM&usp=drive_fs)  |123,836|1022 genes|30s|STARmap PLUS|
-| Sagittal mouse brain integration     | [starmap_plus_mouse_cns_batch3.h5ad](https://drive.google.com/open?id=1283gLKz04YuakzPnOZ72MF_ScCKGa_je&usp=drive_fs)  |207,591|1022 genes|30s|STARmap PLUS|
-|  VisiumHD Tonsil integration     | [FreshFrozenVisiumHDP1.h5ad](https://drive.google.com/open?id=16Hh1T34Cisj41x3QtRphtKG2dtsZ_CC-&usp=drive_fs)  |553,820|18,085 genes|44s|Visium HD|
-|  VisiumHD Tonsil integration     | [FFIFVisiumHDP2.h5ad](https://drive.google.com/open?id=11z920Equ8WV4dpPbNeVDCdvNoazT-Gbr&usp=drive_fs)  |679,294|18,085 genes|44s|Visium HD|
+| Coronal mouse brain | [merscope.h5ad](https://drive.google.com/open?id=15L9-qwdgLPdw6A8q2vMjY5nMCwu9J89w&usp=drive_fs)  |734,696|483 genes|47s|MERSCOPE|
+| Sagittal mouse brain | [starmap_plus_mouse_cns_batch1.h5ad](https://drive.google.com/open?id=12caAILqWOjDNKiaSYuz9-XMp3bN6CDjA&usp=drive_fs)  |91,246|1022 genes|30s|STARmap PLUS|
+| Sagittal mouse brain | [starmap_plus_mouse_cns_batch2.h5ad](https://drive.google.com/open?id=1p3x0_JdCpcjV9AhusrW3OO-y-7lyPRcM&usp=drive_fs)  |123,836|1022 genes|30s|STARmap PLUS|
+| Sagittal mouse brain | [starmap_plus_mouse_cns_batch3.h5ad](https://drive.google.com/open?id=1283gLKz04YuakzPnOZ72MF_ScCKGa_je&usp=drive_fs)  |207,591|1022 genes|30s|STARmap PLUS|
+|  VisiumHD Tonsil | [FreshFrozenVisiumHDP1.h5ad](https://drive.google.com/open?id=16Hh1T34Cisj41x3QtRphtKG2dtsZ_CC-&usp=drive_fs)  |553,820|18,085 genes|44s|Visium HD|
+|  VisiumHD Tonsil | [FFIFVisiumHDP2.h5ad](https://drive.google.com/open?id=11z920Equ8WV4dpPbNeVDCdvNoazT-Gbr&usp=drive_fs)  |679,294|18,085 genes|44s|Visium HD|
 
 
-+ Cross-platform
++ Cross-platform integration
 
-|   Title                     | Download Link                                                                 |
-|-----------------------------|----------------------------------------------------------------------|
-| Cross-platform Mouse Brain Integration     | [MERFISH.h5ad](https://drive.google.com/open?id=16UYRCGe6K5FAMYhoL2-2l7B8mYeCknQq&usp=drive_fs) , [STARmapPLUS.h5ad](https://drive.google.com/open?id=12cl4ToVZ8AosPshu_NVgmwegFUlY-Ol6&usp=drive_fs) and [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)          |
+|   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
+|-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
+| Cross-platform Mouse Brain  | [MERFISH.h5ad](https://drive.google.com/open?id=16UYRCGe6K5FAMYhoL2-2l7B8mYeCknQq&usp=drive_fs)  |49,430|1122 genes|7s|MERFISH|
+| Cross-platform Mouse Brain  | [STARmapPLUS.h5ad](https://drive.google.com/open?id=12cl4ToVZ8AosPshu_NVgmwegFUlY-Ol6&usp=drive_fs)  |43,341|1022 genes|7s|STARmapPLUS|
+| Cross-platform Mouse Brain  | [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)  |48,180|950 genes|7s|CosMx|
+
+| Cross-platform colorectal cancer | [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)  |48,180|950 genes|7s|CosMx|
+| Cross-platform colorectal cancer | [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)  |48,180|950 genes|7s|CosMx|
+| Cross-platform colorectal cancer | [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)  |48,180|950 genes|7s|CosMx|
+| Cross-platform colorectal cancer | [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)  |48,180|950 genes|7s|CosMx|
+
+
 | Cross-platform colorectal cancer integration     | [CosMx.h5ad](https://drive.google.com/open?id=1IFnZ6zLNpIe9edVPiVAlktSmQBUFxcEc&usp=drive_fs) , [Xeniump1.h5ad](https://drive.google.com/open?id=1k6F_FSWnOVQWhgszttQduiTMl5ULA0AC&usp=drive_fs) , [VisiumHD_P1.h5ad](https://drive.google.com/file/d/1OX_feTaU8NYL9_CFjQIGG4jrN-slvknT/view?usp=sharing) , [VisiumHD_P2.h5ad](https://drive.google.com/file/d/1qDWPERNYxaKzYZQd9wG0or2g0SKiKNtX/view?usp=drive_link) and [VisiumHD_P5.h5ad](https://drive.google.com/file/d/1Rs_BJ2Q9rankWc5zemj0Qbt0Q5fv0bnj/view?usp=drive_link)          |
 
 ###  Fig5
