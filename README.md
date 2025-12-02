@@ -1,12 +1,12 @@
-# SpaLP
+## SpaLP
 A novel, ultrafast and general embedding framework for large-scale spatial omics
 
-## Tutorial
+### Tutorial
 All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)
 
-## All h5ad file in Tutorial
+### All h5ad file in Tutorial
 
-## Install
+### Install
 ```
 conda create -n SpaLP -c conda-forge python==3.10.13 libopenblas=0.3.25 -y
 conda activate SpaLP
