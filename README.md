@@ -79,8 +79,8 @@ Training SpaLP by following the tutorials should take <1 minute.
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
 | CosMx Kidney cancer     | [cosmx_kidney.h5ad](https://drive.google.com/file/d/1BaG2ICkXSJ8MSuun9-gMFBYZYAJu_G0D/view?usp=drive_link)         |1,236,281|1000 genes|1min 03s|CosMx|
 | Xenium gastric cancer     | [Gastric.h5ad](https://drive.google.com/file/d/17Dcq1gPQP2qXgA2SfbivhssOK4XQonSl/view?usp=drive_link)          |696,314|377 genes|36s|Xenium|
-| Xenium multi-omics renal cell carcinoma     | [MERFISH_animal3_sagittal.h5ad](https://drive.google.com/open?id=1arMwpcExaPCWZGggGFCZ3KDmTydNXNbM&usp=drive_fs)          |2,081,549|1122 genes|3min 41s|MERFISH|
-
+| Xenium multi-omics renal cell carcinoma     | [RNA.h5ad](https://drive.google.com/open?id=1ax2M_z6VX3fEZqpCpfy3RMVyAb76GP7n&usp=drive_fs)     |465,545|396 genes |28s|Xenium|
+| Xenium multi-omics renal cell carcinoma     | [Protein.h5ad](https://drive.google.com/open?id=137Kw_5MDjEKD23zfH6u6_fKTBCqfjSFJ&usp=drive_fs)     |465,545|27 proteins |28s|Xenium|
 
 
 ## Dependencies
