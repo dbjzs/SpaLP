@@ -60,10 +60,10 @@ Training SpaLP by following the tutorials should take <1 minute.
 | Cross-platform Mouse Brain  | [STARmapPLUS.h5ad](https://drive.google.com/open?id=12cl4ToVZ8AosPshu_NVgmwegFUlY-Ol6&usp=drive_fs)  |43,341|1022 genes|7s|STARmapPLUS|
 | Cross-platform Mouse Brain  | [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)  |48,180|950 genes|7s|CosMx|
 | Cross-platform colorectal cancer | [CosMx.h5ad](https://drive.google.com/open?id=1IFnZ6zLNpIe9edVPiVAlktSmQBUFxcEc&usp=drive_fs)  |493,834|10000 genes|57s|CosMx|
-| Cross-platform colorectal cancer | [Xeniump1.h5ad](https://drive.google.com/open?id=1k6F_FSWnOVQWhgszttQduiTMl5ULA0AC&usp=drive_fs)  |307,762|422 genes|57s|CosMx|
-| Cross-platform colorectal cancer | [VisiumHD_P1.h5ad](https://drive.google.com/file/d/1OX_feTaU8NYL9_CFjQIGG4jrN-slvknT/view?usp=sharing)  |507,684|18,085 genes|57s|CosMx|
-| Cross-platform colorectal cancer | [VisiumHD_P2.h5ad](https://drive.google.com/file/d/1qDWPERNYxaKzYZQd9wG0or2g0SKiKNtX/view?usp=drive_link)  |545,913|18,085 genes|57s|CosMx|
-| Cross-platform colorectal cancer | [VisiumHD_P5.h5ad](https://drive.google.com/file/d/1Rs_BJ2Q9rankWc5zemj0Qbt0Q5fv0bnj/view?usp=drive_link)  |541,968|18,085 genes|57s|CosMx|
+| Cross-platform colorectal cancer | [Xeniump1.h5ad](https://drive.google.com/open?id=1k6F_FSWnOVQWhgszttQduiTMl5ULA0AC&usp=drive_fs)  |307,762|422 genes|57s|Xenium|
+| Cross-platform colorectal cancer | [VisiumHD_P1.h5ad](https://drive.google.com/file/d/1OX_feTaU8NYL9_CFjQIGG4jrN-slvknT/view?usp=sharing)  |507,684|18,085 genes|57s|Visium HD|
+| Cross-platform colorectal cancer | [VisiumHD_P2.h5ad](https://drive.google.com/file/d/1qDWPERNYxaKzYZQd9wG0or2g0SKiKNtX/view?usp=drive_link)  |545,913|18,085 genes|57s|Visium HD|
+| Cross-platform colorectal cancer | [VisiumHD_P5.h5ad](https://drive.google.com/file/d/1Rs_BJ2Q9rankWc5zemj0Qbt0Q5fv0bnj/view?usp=drive_link)  |541,968|18,085 genes|57s|Visium HD|
 
 
 ###  Fig5
