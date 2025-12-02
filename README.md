@@ -93,5 +93,3 @@ Training SpaLP by following the tutorials should take <1 minute.
 
 
 
-
-See full list in requirements.txt file. SpaLP can be run on CPU or GPU.
