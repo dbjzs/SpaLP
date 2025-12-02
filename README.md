@@ -93,22 +93,5 @@ Training SpaLP by following the tutorials should take <1 minute.
 
 
 
-## Dependencies
-You'll need to install the following packages in order to run the codes.
-* Python==3.10.13
-* libopenblas==0.3.25
-* scanpy==1.9.8
-* torch==2.2.0
-* torch_geometric==2.4.0
-* scipy==1.12.0
-* pandas==2.2.3
-* scikit-learn==1.4.0
-* numpy==1.26.3
-* numba==0.59.0
-* llvmlite==0.42.0
-* anndata==0.10.5.post1
-* leidenalg==0.10.2
-* igraph==0.11.8
-* scikit-misc==0.5.1
 
 See full list in requirements.txt file. SpaLP can be run on CPU or GPU.
