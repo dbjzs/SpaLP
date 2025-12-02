@@ -26,6 +26,7 @@ All the result tutorials mentioned in the text can be found [Tutorial](https://s
 Training SpaLP by following the tutorials should take <1 minute.  
 
 ## 📁 Tutorial h5ad file
+All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 ###  Fig2
 
 |   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
