@@ -41,6 +41,7 @@ Training SpaLP by following the tutorials should take <1 minute.
 
 ####  Fig4
 + within-platform
+
 |   Title                     | Download Link                                                                 |
 |-----------------------------|----------------------------------------------------------------------|
 | Coronal mouse brain integration     | [merscope.h5ad](https://drive.google.com/open?id=15L9-qwdgLPdw6A8q2vMjY5nMCwu9J89w&usp=drive_fs)          |
