@@ -3,7 +3,6 @@ A novel, ultrafast and general embedding framework for large-scale spatial omics
 
 ## Dependencies
 You'll need to install the following packages in order to run the codes.
-```
 * Python==3.10.13
 * libopenblas==0.3.25
 * anndata==0.10.5.post1
@@ -15,7 +14,6 @@ You'll need to install the following packages in order to run the codes.
 * scikit-learn==1.4.0
 * scipy==1.12.0
 * scikit-misc==0.5.1
-```
 
 
 
