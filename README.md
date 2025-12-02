@@ -9,6 +9,6 @@ All the result tutorials mentioned in the text can be found [Tutorial](https://s
 conda create -n SpaLP -c conda-forge python==3.10.13 libopenblas=0.3.25 -y
 conda activate SpaLP
 cd SpaLP
-pip install -r requirements.txt
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install .
 ```
