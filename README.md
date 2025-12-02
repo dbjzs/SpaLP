@@ -38,6 +38,7 @@ See full list in requirements.txt file. SpaLP can be run on CPU or GPU.
 
 
 ## Tutorial
+Check out our readthedocs, which includes tutorials for four analyses:
 All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)
 
 ## Data
