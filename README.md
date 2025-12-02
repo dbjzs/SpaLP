@@ -26,7 +26,7 @@ Training SpaLP by following the tutorials should take <1 minute.
 ## 📁 Tutorial h5ad file
 ###  Fig2
 
-|   Title                     | Download Link                                                                 |
+|   Title                     | Download Link                                                                 |  Title                     |
 |-----------------------------|----------------------------------------------------------------------|
 | 640,000 cells Simulation data | [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)       |
 | Xenium Breast Cancer Data     | [Xenium_Breast_Cancer.h5ad](https://drive.google.com/open?id=1StPUArtCFN0oyQLoKN6gQ8n9WlWIAkDl&usp=drive_fs)          |
