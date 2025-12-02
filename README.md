@@ -58,11 +58,10 @@ Training SpaLP by following the tutorials should take <1 minute.
 ###  Fig5
 |   Title                     | Download Link                                                                 |
 |-----------------------------|----------------------------------------------------------------------|
-| 8.4 million cells Mouse Brain Atlas     | [Million_Mouse_Tissue.h5ad](https://drive.google.com/open?id=10XtS2L9UgGLqnkPBhJ6UIYdgZ5BICwp5&usp=drive_fs)         |
-| Stereo-seq mouse testes     | [testis.h5ad](https://drive.google.com/open?id=1li92sr3lFebNXjuAP1YOwMZzlKSOA66z&usp=drive_fs)          |
-| Stereo CITE-seq mouse spleen     | [Stereo_CITE-seq.h5ad](https://drive.google.com/open?id=1VkSMlaeBz020JGZHxVNqW-MKDUmlAaS_&usp=drive_fs)          |
-
-
+| 8.4 million cells Mouse Brain Atlas     | [MERFISH_animal1.h5ad](https://drive.google.com/open?id=1a1dx_e1HWUSNjrLCh3yV3lfr5T0ve07t&usp=drive_fs)         |
+| 8.4 million cells Mouse Brain Atlas     | [MERFISH_animal2.h5ad](https://drive.google.com/open?id=1xTO8Wgs1_6eNeXeQF_3TMgUghrASvdS1&usp=drive_fs)          |
+| 8.4 million cells Mouse Brain Atlas     | [MERFISH_animal3_sagittal.h5ad](https://drive.google.com/open?id=1arMwpcExaPCWZGggGFCZ3KDmTydNXNbM&usp=drive_fs)          |
+| 8.4 million cells Mouse Brain Atlas     | [MERFISH_animal4.h5ad](https://drive.google.com/open?id=1KW5HgTE3zthYJZ5SnhIBV1LOyiYUN8xv&usp=drive_fs)          |
 
 
 
