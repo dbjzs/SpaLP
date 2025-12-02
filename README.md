@@ -25,7 +25,7 @@ Cross-platform colorectal cancer integration [CosMx.h5ad](https://drive.google.c
 
 
 
-### Install
+### Installation
 ```
 conda create -n SpaLP -c conda-forge python==3.10.13 libopenblas=0.3.25 -y
 conda activate SpaLP
