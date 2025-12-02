@@ -1,6 +1,16 @@
 # SpaLP
 A novel, ultrafast and general embedding framework for large-scale spatial omics
 
+
+## Installation
+```
+conda create -n SpaLP -c conda-forge python==3.10.13 libopenblas=0.3.25 -y
+conda activate SpaLP
+cd SpaLP
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install .
+```
+
 ## Dependencies
 You'll need to install the following packages in order to run the codes.
 * Python==3.10.13
@@ -18,6 +28,8 @@ You'll need to install the following packages in order to run the codes.
 * leidenalg==0.10.2
 * igraph==0.11.8
 * scikit-misc==0.5.1
+
+See full list in requirements.txt file. SpaLP can be run on CPU or GPU.
 
 
 ## Tutorial
