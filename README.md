@@ -44,12 +44,12 @@ All the result tutorials mentioned in the text can be found [Tutorial](https://s
 
 Training SpaLP by following the tutorials should take <1 minute.  
 
-### ▶️ Tutorial Videos
+### ▶️ Tutorial h5ad file
 
-| No. | Title                       | Link                                                                 |
-|-----|-----------------------------|----------------------------------------------------------------------|
-|Fig2 | 640,000 cells Simulation data | [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)       |
-| 2   | Complete_Example_Demo.mp4     | [Watch Video](https://drive.google.com/file/d/1SId4RsuEmDj_rMtzERodPOIECL5eksD7/view?usp=sharing)         |
+| Figure |                       | Download Link                                                                 |
+|-----   |-----------------------------|----------------------------------------------------------------------|
+|Fig2    | 640,000 cells Simulation data | [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)       |
+| 2      | Complete_Example_Demo.mp4     | [Watch Video](https://drive.google.com/file/d/1SId4RsuEmDj_rMtzERodPOIECL5eksD7/view?usp=sharing)          |
 
 ## Data
 In this paper, we tested 1 simulation datasets and 18 
