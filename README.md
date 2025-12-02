@@ -1,6 +1,24 @@
 # SpaLP
 A novel, ultrafast and general embedding framework for large-scale spatial omics
 
+## Dependencies
+You'll need to install the following packages in order to run the codes.
+```
+* Python==3.10.13
+* libopenblas==0.3.25
+* anndata==0.10.5.post1
+* numpy==1.26.3
+* pandas==2.2.3
+* scanpy==1.9.8
+* torch==2.2.0
+* torch_geometric==2.4.0
+* scikit-learn==1.4.0
+* scipy==1.12.0
+* scikit-misc==0.5.1
+```
+
+
+
 ## Tutorial
 All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)
 
