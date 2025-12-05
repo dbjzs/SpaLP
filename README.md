@@ -86,12 +86,26 @@ All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xe
 | Xenium multi-omics renal cell carcinoma     | [RNA.h5ad](https://drive.google.com/open?id=1ax2M_z6VX3fEZqpCpfy3RMVyAb76GP7n&usp=drive_fs)     |465,545|396 genes |28s|Xenium|
 | Xenium multi-omics renal cell carcinoma     | [Protein.h5ad](https://drive.google.com/open?id=137Kw_5MDjEKD23zfH6u6_fKTBCqfjSFJ&usp=drive_fs)     |465,545|27 proteins |28s|Xenium|
 
+
+###  Fig7
+|   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
+|-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
+| Pre-training data     | [MERFISH.h5ad](https://drive.google.com/open?id=16UYRCGe6K5FAMYhoL2-2l7B8mYeCknQq&usp=drive_fs)  |49,430|1122 genes|7s|MERFISH|
+| Pre-training data     | [STARmapPLUS.h5ad](https://drive.google.com/open?id=12cl4ToVZ8AosPshu_NVgmwegFUlY-Ol6&usp=drive_fs)  |43,341|1022 genes|7s|STARmapPLUS|
+| Pre-training data     | [CosMx.h5ad](https://drive.google.com/open?id=1qQRnL-zeWmzSZSlbxOiaKVtCFDB4xUW3&usp=drive_fs)  |48,180|950 genes|7s|CosMx|
+| Inference data     | [MERFISH_animal2.h5ad](https://drive.google.com/open?id=1xTO8Wgs1_6eNeXeQF_3TMgUghrASvdS1&usp=drive_fs)  |48,180|1122 genes|1s|C57BL6J-2.041|
+| Inference data     | [Stereo-seq:C03937C4.adjusted.h5ad](https://drive.google.com/open?id=1nBGpBO6FnlhCiFxuYAm4SCCxV8MDWYt6&usp=drive_fs)  |70,035|~28,000 genes|1s|Stereo-seq|
+
+
+
 ###  Exntend Data Fig3
 |   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
 | CODEX mouse spleen     | [BALBc-1.h5ad](https://drive.google.com/open?id=1k56uujBkFX0dgtN8GfAX2rdSuXBW7GWI&usp=drive_fs)         |82,251|30 proteins|13s|CODEX|
 | CODEX mouse spleen     | [BALBc-2.h5ad](https://drive.google.com/open?id=1Uh8H9yR_G8ZzFzQbxX-G28s5rdov7PaB&usp=drive_fs)         |81,346|30 proteins|12s|CODEX|
 | CODEX mouse spleen     | [BALBc-3.h5ad](https://drive.google.com/open?id=106MHMrFNNWp3ouAqy5A4CLIWhx3k6IGD&usp=drive_fs)         |80,636|30 proteins|12s|CODEX|
+
+
 
 
 
