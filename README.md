@@ -35,7 +35,7 @@ pip install .
 - Running SpaLP following the tutorial should < 1 minute.
 
 ### 📁 Tutorial h5ad file
-- All h5ad files except the in-house kidney cancer samples have been uploaded to the [zenodo repository]()
+- All h5ad files have been uploaded to the [zenodo repository]()
 
 ### Reference
 - If you find SpaLP useful for your research, please consider citing the SpaLP manuscript.
