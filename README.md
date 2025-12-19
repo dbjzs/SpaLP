@@ -1,4 +1,4 @@
-<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="300" height="300" alt="SpaLP-logo"> <img src="https://github.com/dbjzs/SpaLP/blob/main/input.svg" width="200" height="300" alt="LP-logo">
+<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="200" height="300" alt="SpaLP-logo"> <img src="https://github.com/dbjzs/SpaLP/blob/main/input.svg" width="200" height="150" alt="LP-logo">
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/stargazers)
