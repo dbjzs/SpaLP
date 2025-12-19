@@ -2,8 +2,6 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/1027victor/SpaLP.svg)](https://github.com/dbjzs/SpaLP/stargazers)
-[![PyPI](https://img.shields.io/pypi/v/nichecompass.svg)](https://pypi.org/project/nichecompass)
-[![PyPIDownloads](https://static.pepy.tech/badge/nichecompass)](https://pepy.tech/project/nichecompass)
 [![Docs](https://readthedocs.org/projects/SpaLP/badge/?version=latest)](https://spalp.readthedocs.io/en/latest/index.html)
 [![Forks](https://img.shields.io/github/forks/1027victor/SpaLP.svg)](https://github.com/dbjzs/SpaLP/forks)
 
