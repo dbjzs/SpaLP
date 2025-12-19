@@ -33,7 +33,7 @@ pip install .
 
 ### 🚀Getting started Tutorial
 - Tutorials and API documentation are available in the [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
-- Please use [issues](https://github.com/Lotfollahi-lab/nichecompass/issues) to submit bug reports.
+- Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
 - If you would like to contribute, check out the [contributing guide](https://nichecompass.readthedocs.io/en/latest/contributing.html).
 - If you find NicheCompass useful for your research, please consider citing the NicheCompass manuscript.
  
