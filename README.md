@@ -1,6 +1,5 @@
 <img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="150" alt="SpaLP-logo">
 
-# SpaLP
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/1027victor/SpaLP.svg)](https://github.com/dbjzs/SpaLP/stargazers)
 [![PyPI](https://img.shields.io/pypi/v/nichecompass.svg)](https://pypi.org/project/nichecompass)
