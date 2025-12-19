@@ -34,6 +34,9 @@ pip install .
 - All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 - Running SpaLP following the tutorial should < 1 minute.
 
+### 📁 Tutorial h5ad file
+- All h5ad files except the in-house kidney cancer samples have been uploaded to the [zenodo repository]()
+
 ### Reference
 - If you find SpaLP useful for your research, please consider citing the SpaLP manuscript.
 ```
