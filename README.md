@@ -5,8 +5,7 @@
 [![PyPIDownloads](https://static.pepy.tech/badge/nichecompass)](https://pepy.tech/project/nichecompass)
 [![Docs](https://readthedocs.org/projects/SpaLP/badge/?version=latest)](https://spalp.readthedocs.io/en/latest/index.html)
 [![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-
-SpaLP is a package for ultra-large-scale spatial omics data.It is built on top of [PyG](https://pytorch-geometric.readthedocs.io/en/latest/) and [AnnData](https://anndata.readthedocs.io/en/latest/).
+[![Forks](https://img.shields.io/github/forks/1027victor/SpaLP.svg)](https://github.com/dbjzs/SpaLP/forks)
 
 A novel, ultrafast and general embedding framework for large-scale spatial omics
 
