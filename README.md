@@ -6,7 +6,7 @@
 [![Docs](https://readthedocs.org/projects/SpaLP/badge/?version=latest)](https://spalp.readthedocs.io/en/latest/index.html)
 [![Forks](https://img.shields.io/github/forks/1027victor/SpaLP.svg)](https://github.com/dbjzs/SpaLP/forks)
 
-A novel, ultrafast and general embedding framework for large-scale spatial omics
+A lightweight, ultrafast and general embedding framework for large-scale spatial omics data
 
 
 
