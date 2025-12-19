@@ -1,4 +1,4 @@
-<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="150" alt="SpaLP-logo"> 
+<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="300" height="300" alt="SpaLP-logo"> <img src="https://github.com/dbjzs/SpaLP/blob/main/input.svg" width="200" height="300" alt="LP-logo">
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/stargazers)
@@ -7,7 +7,7 @@
 ![Python 3.10.13](https://img.shields.io/badge/python->=3.10-blue.svg)
 
 SpaLP (**Spa**tial **L**ocal **P**ooling) is a python package for ultra-large-scale spatial omics data, including spatial atlas building, niche identification, omics data reconstruction, multi-slice integration (within-platform & cross-platform), large-scale multi-omics integration, cross-platform generalized and zero-shot learning.  
-<img src="https://github.com/dbjzs/SpaLP/blob/main/input.svg" width="200" height="300" alt="LP-logo"> <img src="https://github.com/dbjzs/SpaLP/blob/main/LP.svg" height="300" alt="LP-logo">
+<img src="https://github.com/dbjzs/SpaLP/blob/main/LP.svg" height="500" alt="LP-logo">
 
 ## Installation
 #### 📥 Download
