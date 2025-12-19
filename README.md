@@ -35,7 +35,7 @@ pip install .
 - Tutorials and API documentation are available in the [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
 - If you would like to contribute, check out the [contributing guide](https://nichecompass.readthedocs.io/en/latest/contributing.html).
-- If you find NicheCompass useful for your research, please consider citing the NicheCompass manuscript.
+- If you find SpaLP useful for your research, please consider citing the SpaLP manuscript.
  
 
 Training SpaLP by following the tutorials should take <1 minute.  
