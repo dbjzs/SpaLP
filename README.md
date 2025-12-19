@@ -27,7 +27,6 @@ conda activate SpaLP
 #### 🛠️package
 * Then using pip install SpaLP.
 ```
-cd SpaLP
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install .
 ```
