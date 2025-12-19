@@ -6,7 +6,7 @@
 [![Forks](https://img.shields.io/github/forks/1027victor/SpaLP.svg)](https://github.com/dbjzs/SpaLP/forks)
 ![Python 3.10.13](https://img.shields.io/badge/python->=3.10-blue.svg)
 
-A lightweight, ultrafast and general embedding framework for large-scale spatial omics data
+SpaLP (**Spa**tial **L**ocal **P**ooling) is a package for end-to-end analysis of spatial multi-omics data, including spatial atlas building, niche identification & characterization, cell-cell communication inference and spatial reference mapping. It is built on top of [PyG](https://pytorch-geometric.readthedocs.io/en/latest/) and [AnnData](https://anndata.readthedocs.io/en/latest/).A lightweight, ultrafast and general embedding framework for large-scale spatial omics data
 
 
 ## Installation
