@@ -32,6 +32,12 @@ pip install .
 ```
 
 ### 🚀Getting started Tutorial
+## Resources
+- An installation guide, tutorials and API documentation is available in the [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
+- Please use [issues](https://github.com/Lotfollahi-lab/nichecompass/issues) to submit bug reports.
+- If you would like to contribute, check out the [contributing guide](https://nichecompass.readthedocs.io/en/latest/contributing.html).
+- If you find NicheCompass useful for your research, please consider citing the NicheCompass manuscript.
+- 
 Check out our readthedocs, which includes tutorials for four analyses:  
 Single sample tutorial, Multi sample Integration tutorial, Multi-omics tutorial, Cross-platform generalization  
 All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)  
