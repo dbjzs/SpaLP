@@ -1,4 +1,4 @@
-<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="150" alt="SpaLP-logo">
+<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="150" alt="SpaLP-logo"> A lightweight, ultrafast and general embedding framework for large-scale spatial omics data
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/stargazers)
@@ -7,7 +7,7 @@
 
 A lightweight, ultrafast and general embedding framework for large-scale spatial omics data
 
-
+![Model architecture](docs/_static/Model.png)
 
 ## Installation
 #### 📥 Download
