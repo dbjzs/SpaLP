@@ -12,6 +12,11 @@ A lightweight, ultrafast and general embedding framework for large-scale spatial
 
 
 ## Installation
+#### Download
+```
+git clone https://github.com/dbjzs/SpaLP.git
+cd SpaLP
+```
 #### 🔧 environment
 SpaLP is available for Python 3.10. We recommend to train SpaLP models on a device with GPU support.  
 * Using the conda install environment
