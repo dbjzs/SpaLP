@@ -29,6 +29,7 @@ pip install .
 ```
 
 ### 🚀Getting started Tutorial
+<img src='main/Logo.svg' width='250'> <img src='main/Logo.svg' width='350'> <img src='main/Logo.svg' width='200'>
 - Tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
 - All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
