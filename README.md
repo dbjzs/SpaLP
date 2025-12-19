@@ -12,7 +12,7 @@ A lightweight, ultrafast and general embedding framework for large-scale spatial
 
 
 ## Installation
-#### Download
+#### 📥 Download
 ```
 git clone https://github.com/dbjzs/SpaLP.git
 cd SpaLP
