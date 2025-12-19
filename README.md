@@ -1,5 +1,5 @@
 # SpaLP
-[![License](https://img.shields.io/badge/License-MIT--Clause-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/Lotfollahi-lab/nichecompass?logo=GitHub&color=yellow)](https://github.com/Lotfollahi-lab/nichecompass/stargazers)
 [![PyPI](https://img.shields.io/pypi/v/nichecompass.svg)](https://pypi.org/project/nichecompass)
 [![PyPIDownloads](https://static.pepy.tech/badge/nichecompass)](https://pepy.tech/project/nichecompass)
