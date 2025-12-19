@@ -35,10 +35,10 @@ pip install .
 - Tutorials and API documentation are available in the [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
 - All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
-- If you find SpaLP useful for your research, please consider citing the SpaLP manuscript.
-
+- TRunning SpaLP following the tutorial should < 1 minute.
 
 ### Reference
+- If you find SpaLP useful for your research, please consider citing the SpaLP manuscript.
 ```
 @article{Dai?,
   author    = {Dai, et al.},
