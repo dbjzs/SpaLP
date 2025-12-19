@@ -1,11 +1,11 @@
 # SpaLP
-[![source](https://img.shields.io/badge/Source_code-support-blue.svg)](https://github.com/dbjzs/SpaLP/tree/main/SpaLP)
-![Version](https://img.shields.io/badge/version-1.0-blue.svg)
-![License](https://img.shields.io/github/license/1027victor/ScSpliceShiner.svg)
-![Languages](https://img.shields.io/github/languages/top/1027victor/ScSpliceShiner.svg)
-![Stars](https://img.shields.io/github/stars/1027victor/ScSpliceShiner.svg)
-![Forks](https://img.shields.io/github/forks/1027victor/ScSpliceShiner.svg)
-![Contributors](https://img.shields.io/github/contributors/1027victor/ScSpliceShiner.svg)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://github.com/Lotfollahi-lab/nichecompass/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/Lotfollahi-lab/nichecompass?logo=GitHub&color=yellow)](https://github.com/Lotfollahi-lab/nichecompass/stargazers)
+[![PyPI](https://img.shields.io/pypi/v/nichecompass.svg)](https://pypi.org/project/nichecompass)
+[![PyPIDownloads](https://static.pepy.tech/badge/nichecompass)](https://pepy.tech/project/nichecompass)
+[![Docs](https://readthedocs.org/projects/nichecompass/badge/?version=latest)](https://nichecompass.readthedocs.io/en/stable/?badge=stable)
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![PyPI](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 A novel, ultrafast and general embedding framework for large-scale spatial omics
 
