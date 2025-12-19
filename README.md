@@ -1,17 +1,24 @@
 # SpaLP
-A novel, ultrafast and general embedding framework for large-scale spatial omics
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/1027victor/SpaLP.svg)](https://github.com/dbjzs/SpaLP/stargazers)
+[![PyPI](https://img.shields.io/pypi/v/nichecompass.svg)](https://pypi.org/project/nichecompass)
+[![PyPIDownloads](https://static.pepy.tech/badge/nichecompass)](https://pepy.tech/project/nichecompass)
+[![Docs](https://readthedocs.org/projects/SpaLP/badge/?version=latest)](https://spalp.readthedocs.io/en/latest/index.html)
+[![Forks](https://img.shields.io/github/forks/1027victor/SpaLP.svg)](https://github.com/dbjzs/SpaLP/forks)
+
+A lightweight, ultrafast and general embedding framework for large-scale spatial omics data
 
 
 
 ## Installation
-### 🔧 environment
+#### 🔧 environment
 SpaLP is available for Python 3.10. We recommend to train SpaLP models on a device with GPU support.  
 * Using the conda install environment
 ```
 conda create -n SpaLP -c conda-forge python==3.10.13 libopenblas=0.3.25 -y
 conda activate SpaLP
 ```
-### 🛠️package
+#### 🛠️package
 * Then using pip install SpaLP.
 ```
 cd SpaLP
@@ -19,16 +26,16 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install .
 ```
 
-## 🚀Getting started Tutorial
+### 🚀Getting started Tutorial
 Check out our readthedocs, which includes tutorials for four analyses:  
 Single sample tutorial, Multi sample Integration tutorial, Multi-omics tutorial, Cross-platform generalization  
 All the result tutorials mentioned in the text can be found [Tutorial](https://spalp.readthedocs.io/en/latest/index.html)  
 
 Training SpaLP by following the tutorials should take <1 minute.  
 
-## 📁 Tutorial h5ad file
+### 📁 Tutorial h5ad file
 All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
-###  Fig2
+####  Fig2
 
 |   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|

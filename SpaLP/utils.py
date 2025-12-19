@@ -94,7 +94,7 @@ def prepare_inputs_batch(adata, k, batch_size):
 
     
 
-
+# Cite from https://github.com/Lotfollahi-lab/nichecompass
 default_color_dict = {
     "0": "#66C5CC",
     "1": "#F6CF71",
