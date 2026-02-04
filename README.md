@@ -72,14 +72,14 @@ All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xe
 ###  Fig4
 + within-platform integration
 
-|   Title                     | Download Link                                                                 | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
-|-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
-| Coronal mouse brain | [merscope.h5ad](https://drive.google.com/open?id=15L9-qwdgLPdw6A8q2vMjY5nMCwu9J89w&usp=drive_fs)  |734,696|483 genes|47s|MERSCOPE|
-| Sagittal mouse brain | [starmap_plus_mouse_cns_batch1.h5ad](https://drive.google.com/open?id=12caAILqWOjDNKiaSYuz9-XMp3bN6CDjA&usp=drive_fs)  |91,246|1022 genes|30s|STARmap PLUS|
-| Sagittal mouse brain | [starmap_plus_mouse_cns_batch2.h5ad](https://drive.google.com/open?id=1p3x0_JdCpcjV9AhusrW3OO-y-7lyPRcM&usp=drive_fs)  |123,836|1022 genes|30s|STARmap PLUS|
-| Sagittal mouse brain | [starmap_plus_mouse_cns_batch3.h5ad](https://drive.google.com/open?id=1283gLKz04YuakzPnOZ72MF_ScCKGa_je&usp=drive_fs)  |207,591|1022 genes|30s|STARmap PLUS|
-|  VisiumHD Tonsil | [FreshFrozenVisiumHDP1.h5ad](https://drive.google.com/open?id=16Hh1T34Cisj41x3QtRphtKG2dtsZ_CC-&usp=drive_fs)  |553,820|18,085 genes|44s|Visium HD|
-|  VisiumHD Tonsil | [FFIFVisiumHDP2.h5ad](https://drive.google.com/open?id=11z920Equ8WV4dpPbNeVDCdvNoazT-Gbr&usp=drive_fs)  |679,294|18,085 genes|44s|Visium HD|
+|   Title                     |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
+|-----------------------------|-----|------|-------------|-------------|
+| Coronal mouse brain | 734,696|483 genes|47s|MERSCOPE|
+| Sagittal mouse brain | 91,246|1022 genes|30s|STARmap PLUS|
+| Sagittal mouse brain | 123,836|1022 genes|30s|STARmap PLUS|
+| Sagittal mouse brain | 207,591|1022 genes|30s|STARmap PLUS|
+|  VisiumHD Tonsil | 553,820|18,085 genes|44s|Visium HD|
+|  VisiumHD Tonsil | 679,294|18,085 genes|44s|Visium HD|
 
 
 + Cross-platform integration
