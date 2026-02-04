@@ -52,7 +52,7 @@ pip install .
 ```
  
 
-### 📁 Experimental configuration and running time
+### ⏱️ Experimental configuration and running time
 All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 ####  Fig2
 
