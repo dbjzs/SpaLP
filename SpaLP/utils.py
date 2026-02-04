@@ -16,7 +16,7 @@ def set_seed(seed):
     torch.backends.cudnn.benchmark = False
 
 class Graph:
-    def __init__(self, features, neighbor_idx, batches=None):
+    def __init__(self, features, neighbor_idx):
         """
         Graph data structure to store coordinates, features, and neighbor indices.
 
@@ -27,7 +27,6 @@ class Graph:
         """
         self.features = features
         self.neighbor_idx = neighbor_idx
-        self.batches = batches 
         
     def get_node(self, node_idx):
         return {
@@ -58,43 +57,12 @@ def prepare_inputs(adata,k, device):
     return Graph(features, neighbor_idx)
 
 
-def prepare_inputs_batch(adata, k, batch_size):
-    features = adata.obsm['feat']
-    if hasattr(features, 'toarray'):
-        features = features.toarray()
-    coords = adata.obsm['spatial']
-
-    features = torch.tensor(features, dtype=torch.float32).cpu()
-    neighbor_idx = build_neighbor_idx(coords, k+1).cpu()
-
-    N = features.shape[0]
-    batch_starts = list(range(0, N, batch_size))
-
-    batches = []
-    for start in batch_starts:
-        end = min(start + batch_size, N)
-        bs = end - start
-
-        batch_idx = torch.arange(start, end, device='cpu')
-        batch_features = features[batch_idx]
-        batch_neighbor_global = neighbor_idx[batch_idx]
-        batch_neighbor_local = batch_neighbor_global - start
-
-        valid_mask = (batch_neighbor_local >= 0) & (batch_neighbor_local < bs)
-        batch_neighbor_local[~valid_mask] = -1
-
-        batches.append({
-            'features': batch_features,          
-            'neighbor_local': batch_neighbor_local
-        })
-
-    return Graph(features, neighbor_idx, batches=batches)
 
 
 
     
 
-# Cite from https://github.com/Lotfollahi-lab/nichecompass
+
 default_color_dict = {
     "0": "#66C5CC",
     "1": "#F6CF71",
