@@ -56,11 +56,11 @@ pip install .
 All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 ####  Fig2
 
-|   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
+|   Title                     | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
 |-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
-| 640,000 cells Simulation data | [simulatedata.h5ad](https://drive.google.com/open?id=1DnPjxTxS6fLjWtfio__s_yMvgp0zqqhS&usp=drive_fs)       |640,000|31,493 genes|52s|Simulation|
-| Xenium Breast Cancer Data     | [Xenium_Breast_Cancer.h5ad](https://drive.google.com/open?id=1StPUArtCFN0oyQLoKN6gQ8n9WlWIAkDl&usp=drive_fs) |167,780|313 genes|7s|Xenium|
-| CosMx Mouse Brain     | [CosMxMouseBrain.h5ad](https://drive.google.com/open?id=11aHibK5ZpmI7Ogoru2Y3vDMafP4TTP11&usp=drive_fs)          |48,180 |950 genes|7s|CosMx|
+| 640,000 cells Simulation data |640,000|31,493 genes|52s|Simulation|
+| Xenium Breast Cancer Data     |167,780|313 genes|7s|Xenium|
+| CosMx Mouse Brain     | 48,180 |950 genes|7s|CosMx|
 
 ###  Fig3
 |   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
