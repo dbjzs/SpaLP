@@ -33,7 +33,7 @@ pip install .
 - Tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
 - All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
-- Running SpaLP following the tutorial should < 1 minute.
+- According to the tutorial, running SpaLP should < 1 minute on most datasets with million cells.
 
 ### 📁 Tutorial h5ad file
 - All h5ad files have been uploaded to the [zenodo repository]()
