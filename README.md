@@ -63,11 +63,11 @@ All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xe
 | CosMx Mouse Brain     | 48,180 |950 genes|7s|CosMx|
 
 ###  Fig3
-|   Title                     | Download Link                                                                 |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
-|-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
-| 1.35Million Mouse_Tissue     | [Million_Mouse_Tissue.h5ad](https://drive.google.com/open?id=10XtS2L9UgGLqnkPBhJ6UIYdgZ5BICwp5&usp=drive_fs)         |1,355,849|379 genes|47s|Xenium|
-| Stereo-seq mouse testes     | [testis.h5ad](https://drive.google.com/open?id=1li92sr3lFebNXjuAP1YOwMZzlKSOA66z&usp=drive_fs)          |198,248|27,869 genes|24s|Stereo-seq V1.3|
-| Stereo CITE-seq mouse spleen     | [Stereo_CITE-seq.h5ad](https://drive.google.com/open?id=1VkSMlaeBz020JGZHxVNqW-MKDUmlAaS_&usp=drive_fs)          |295,215|128 proteins|14s|Stereo CITE-seq|
+|   Title                     |  Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
+|-----------------------------|-----------|------|-------------|-------------|
+| 1.35Million Mouse_Tissue     | 1,355,849|379 genes|47s|Xenium|
+| Stereo-seq mouse testes     | 198,248|27,869 genes|24s|Stereo-seq V1.3|
+| Stereo CITE-seq mouse spleen     | 295,215|128 proteins|14s|Stereo CITE-seq|
 
 ###  Fig4
 + within-platform integration
