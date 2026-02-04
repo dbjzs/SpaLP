@@ -57,7 +57,7 @@ All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xe
 ####  Fig2
 
 |   Title                     | Cells                     |Genes/Protenis| SpaLP Runtime|Platform|
-|-----------------------------|----------------------------------------------------------------------|-----------|------|-------------|-------------|
+|-----------------------------|---------------------------|------|-------------|-------------|
 | 640,000 cells Simulation data |640,000|31,493 genes|52s|Simulation|
 | Xenium Breast Cancer Data     |167,780|313 genes|7s|Xenium|
 | CosMx Mouse Brain     | 48,180 |950 genes|7s|CosMx|
