@@ -38,6 +38,21 @@ pip install .
 ### 📁 Tutorial h5ad file
 - All h5ad files have been uploaded to the [zenodo repository](https://zenodo.org/records/18483604)
 
+
+### Citation
+- If you find SpaLP useful for your research, please consider citing the SpaLP manuscript [bioRxiv](https://www.biorxiv.org/cgi/content/short/2026.02.04.703814v1).
+The preprint of SpaLP is available at [bioRxiv](https://www.biorxiv.org/cgi/content/short/2026.02.04.703814v1). If you use SpaLP in your research, please cite:
+
+```bibtex
+@article{Li2024.04.15.589470,
+  title = {A lightweight, ultrafast and general embedding framework for large-scale spatial omics data},
+  author = {Dai, et al.},
+  year = {2026.02.04.703814},
+  journal = {bioRxiv : the preprint server for biology},
+  eprint = {https://www.biorxiv.org/cgi/content/short/2026.02.04.703814v1},
+  doi = {https://doi.org/10.64898/2026.02.04.703814},
+}
+```
 ### Reference
 - If you find SpaLP useful for your research, please consider citing the SpaLP manuscript.
 ```
