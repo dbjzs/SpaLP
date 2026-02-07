@@ -41,7 +41,6 @@ pip install .
 
 ### Reference
 - If you find SpaLP useful for your research, please consider citing the SpaLP manuscript [bioRxiv](https://www.biorxiv.org/cgi/content/short/2026.02.04.703814v1).
-The preprint of SpaLP is available at [bioRxiv](https://www.biorxiv.org/cgi/content/short/2026.02.04.703814v1). If you use SpaLP in your research, please cite:
 
 ```
 @article{Dai2026.02.04.703814,
