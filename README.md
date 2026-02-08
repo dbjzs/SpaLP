@@ -31,6 +31,9 @@ pip install .
 
 ### 🚀Getting started Tutorial
 - Tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
+- Updated on February 8th: 
+  Five multi-omics simulated data and spatial ATAC-RNA-seq mouse brian were added
+  Some of the errors in 8.4 million mouse brains were corrected
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
 - All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 - According to the tutorial, running SpaLP should < 1 minute on most datasets with million cells.
