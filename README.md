@@ -63,7 +63,6 @@ pip install .
   For technical platforms with gene panels less than 2000, we recommend using all genes as input.
   
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
-- 
 ### 🖥️ Configuration options
 - All experiments in the manuscript were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 - According to the tutorial, running time for the same configuration should < 1 minute on most datasets with million cells.
