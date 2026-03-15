@@ -69,11 +69,14 @@ pip install .
 - SpaLP requires that the computing device must have at least 1 CPU core.
 - The requirements for GPU memory and CPU memory of SpaLP are listed in the following table.
   
-| Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|
-|---------------------------|------|-------------|-------------|---------|
-|640,000|2000 genes|Simulation|29.68GB|7.87GB|
-|167,780|313 genes|Xenium|2.01GB|1.59GB|
-|48,180 |950 genes|CosMx|1.85GB|0.26GB|
+| Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|Reference running time|
+|---------------------------|------|-------------|-------------|---------|---------|
+|1,355,849|379 genes|Xenium|15.89GB|4.49GB|47s|
+|1,236,281|1000 genes|CosMx|30.15GB|8.07GB|1min 03s|
+|640,000|2000 genes|Simulation|29.68GB|7.87GB|52s|
+|167,780|313 genes|Xenium|2.01GB|1.59GB|7s|
+|48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|
+
 
 ### 📁 Tutorial h5ad file
 - All h5ad files have been uploaded to the [zenodo repository](https://zenodo.org/records/18483604)
