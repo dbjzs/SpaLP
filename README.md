@@ -71,14 +71,17 @@ pip install .
   
 | Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|Reference running time|K-nearest neighbor|
 |---------------------------|------|-------------|-------------|---------|---------|---------|
+|2,127,707|329 genes|cross-platform|21.96GB|36GB|1min 02s|4|
 |1,355,849|379 genes|Xenium|15.89GB|4.49GB|47s|3|
 |1,236,281|1000 genes|CosMx|30.15GB|8.07GB|1min 03s|4|
 |696,314|377 genes|Xenium|13.41GB|3.24GB|39s|5|
 |640,000|2000 genes|Simulation|29.68GB|7.87GB|52s|5|
+|422,673|1022 genes|STARmapPLUS|14.85GB|6.22GB|34s|6|
 |167,780|313 genes|Xenium|2.01GB|1.59GB|7s|3|
 |48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|8|
 |295,215|128 proteins|Stereo-CITE-seq|4.04GB|1.44GB|4|
 |82,251|30 proteins|CODEX|7.79GB|1.16GB|14s|50|
+For 3 million cells or more, see the 8.4 million integration tutorial.
 
 
 ### 📁 Tutorial h5ad file
