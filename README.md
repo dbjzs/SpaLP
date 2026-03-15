@@ -46,6 +46,11 @@ pip install .
    sc.pp.scale(adata)  <Required>
    adata.obsm['feat'] = adata.X  <Required>  
   ```
+  For log-transformed expression matrix or protein data
+  ```
+   sc.pp.scale(adata)  <Required>
+   adata.obsm['feat'] = adata.X  <Required>  
+  ```
   
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
 - All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
