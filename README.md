@@ -31,10 +31,12 @@ pip install .
 
 ### 🚀Getting started Tutorial
 - Tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
-- Expected input formats: The expected data input formats of SpaLP is the [AnnData](https://anndata.readthedocs.io/en/stable/)
+- The expected data input format of SpaLP is the [AnnData](https://anndata.readthedocs.io/en/stable/).
+  The user needs to store the two-dimensional coordinates of the slices in the "obsm" variable and name it "spatial".
+  The preprocessed feature matrix needs to be stored in the "obsm" variable and named as "feat".
   ```
-   The expected data input formats of SpaLP is the AnnData object.  
-   Some of the errors in 8.4 million mouse brains were corrected
+   adata.obsm['spatial']
+   adata.obsm['feat']  
   ```
 - Preprocessing steps:
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
