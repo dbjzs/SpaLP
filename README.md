@@ -61,11 +61,10 @@ pip install .
    adata.obsm['feat'] = adata.X
   ```
   For technical platforms with gene panels less than 2000, we recommend using all genes as input.
-  
 - configuration options. 
-
-  
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
+  
+### Command line usage
   
 ### 🖥️ Computing resources and running time
 - All experiments in the manuscript were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
