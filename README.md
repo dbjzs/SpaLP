@@ -81,7 +81,8 @@ pip install .
 |48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|8|
 |295,215|128 proteins|Stereo-CITE-seq|4.04GB|1.44GB|4|
 |82,251|30 proteins|CODEX|7.79GB|1.16GB|14s|50|
-For 3 million cells or more, see the 8.4 million integration tutorial.
+
+- For 3 million cells or more, see the 8.4 million integration tutorial.
 
 
 ### 📁 Tutorial h5ad file
