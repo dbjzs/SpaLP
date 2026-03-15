@@ -41,15 +41,15 @@ pip install .
 - Preprocessing steps  
   For the original count matrix
   ```
-   sc.pp.normalize_total(adata, inplace=True)  [Optional] 
-   sc.pp.log1p(adata)  [Optional]
-   sc.pp.scale(adata)  <Required>
-   adata.obsm['feat'] = adata.X  <Required>  
+   sc.pp.normalize_total(adata, inplace=True)  
+   sc.pp.log1p(adata)
+   sc.pp.scale(adata)  
+   adata.obsm['feat'] = adata.X  
   ```
   For log-transformed expression matrix or protein data
   ```
-   sc.pp.scale(adata)  <Required>
-   adata.obsm['feat'] = adata.X  <Required>  
+   sc.pp.scale(adata) 
+   adata.obsm['feat'] = adata.X 
   ```
   
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
