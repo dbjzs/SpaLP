@@ -77,6 +77,8 @@ pip install .
 |640,000|2000 genes|Simulation|29.68GB|7.87GB|52s|5|
 |167,780|313 genes|Xenium|2.01GB|1.59GB|7s|3|
 |48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|8|
+|295,215|128 proteins|Stereo-CITE-seq|4.04GB|1.44GB|4|
+|82,251|30 proteins|CODEX|7.79GB|1.16GB|14s|50|
 
 
 ### 📁 Tutorial h5ad file
