@@ -61,8 +61,7 @@ pip install .
    sc.pp.scale(adata)
    adata.obsm['feat'] = adata.X
   ```
-  For technical platforms with gene panels less than 2000, we recommend using all genes as input.
-- configuration options. 
+  For technical platforms with gene panels less than 2000, we recommend using all genes as input. 
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
   
   
