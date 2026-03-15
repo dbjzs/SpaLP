@@ -31,7 +31,7 @@ pip install .
 
 ### 🚀Getting started Tutorial
 - Tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
-- Expected input formats:
+- Expected input formats: The expected data input formats of SpaLP is the [AnnData](https://anndata.readthedocs.io/en/stable/)
   ```
    The expected data input formats of SpaLP is the AnnData object.  
    Some of the errors in 8.4 million mouse brains were corrected
