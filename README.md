@@ -38,13 +38,13 @@ pip install .
    adata.obsm['spatial']
    adata.obsm['feat']  
   ```
-- Preprocessing steps
+- Preprocessing steps  
   For the original count matrix
   ```
-   sc.pp.normalize_total(adata, inplace=True)  Optional 
-   sc.pp.log1p(adata)  Optional
-   sc.pp.scale(adata)  Required
-   adata.obsm['feat'] = adata.X  Required  
+   sc.pp.normalize_total(adata, inplace=True)  [Optional] 
+   sc.pp.log1p(adata)  [Optional]
+   sc.pp.scale(adata)  <Required>
+   adata.obsm['feat'] = adata.X  <Required>  
   ```
   
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
