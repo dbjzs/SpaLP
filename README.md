@@ -32,7 +32,7 @@ pip install .
 ### 🚀Getting started Tutorial
 - Tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
 - The expected data input format of SpaLP is the [AnnData](https://anndata.readthedocs.io/en/stable/).
-  The user needs to store the two-dimensional coordinates of the slices in the "obsm" variable and name it "spatial".
+  The user needs to store the two-dimensional coordinates of the slices in the "obsm" variable and name it "spatial".  
   The preprocessed feature matrix needs to be stored in the "obsm" variable and named as "feat".
   ```
    adata.obsm['spatial']
