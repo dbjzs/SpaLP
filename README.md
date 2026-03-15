@@ -67,7 +67,8 @@ pip install .
 - All experiments in the manuscript were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 - According to the tutorial, running time for the same configuration should < 1 minute on most datasets with million cells.
 - SpaLP requires that the computing device must have at least 1 CPU core.
-- The requirements for GPU memory and CPU memory of SpaLP are listed in the following table.  
+- The requirements for GPU memory and CPU memory of SpaLP are listed in the following table.
+  
 | Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|
 |---------------------------|------|-------------|-------------|---------|
 |640,000|2000 genes|Simulation|29.68GB|7.87GB|
