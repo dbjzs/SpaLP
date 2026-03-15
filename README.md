@@ -66,7 +66,7 @@ pip install .
 ### 🖥️ Configuration options
 - All experiments in the manuscript were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 - According to the tutorial, running time for the same configuration should < 1 minute on most datasets with million cells.
-
+- SpaLP requires that the computing device must have at least 1 CPU core.
 ### 📁 Tutorial h5ad file
 - All h5ad files have been uploaded to the [zenodo repository](https://zenodo.org/records/18483604)
 
