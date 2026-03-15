@@ -51,9 +51,22 @@ pip install .
    sc.pp.scale(adata) 
    adata.obsm['feat'] = adata.X 
   ```
+  For the technology platform with more than 3000 genes, we recommend using top2000 or top3000 highly variable genes.
+  ```
+   sc.pp.highly_variable_genes(adata, n_top_genes=2000, flavor='seurat_v3')
+   adata = adata[:,adata.var.highly_variable]
+   sc.pp.normalize_total(adata, inplace=True)
+   sc.pp.log1p(adata)
+   sc.pp.scale(adata)
+   adata.obsm['feat'] = adata.X
+  ```
+  For technical platforms with gene panels less than 2000, we recommend using all genes as input.
   
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
 - All experiments were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
+  🖥️Configuration options
+  
+  
 - According to the tutorial, running SpaLP should < 1 minute on most datasets with million cells.
 
 
