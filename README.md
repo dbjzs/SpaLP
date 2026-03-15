@@ -80,8 +80,9 @@ pip install .
 |422,673|1022 genes|STARmapPLUS|14.85GB|6.22GB|34s|6|
 |167,780|313 genes|Xenium|2.01GB|1.59GB|7s|3|
 |48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|8|
+|1,395,992|43 proteins|CODEX|5.29GB|3.81GB|25s|4|
 |295,215|128 proteins|Stereo-CITE-seq|4.04GB|1.44GB|15s|4|
-|82,251|30 proteins|CODEX|7.79GB|1.16GB|14s|50|
+
 
 - For 3 million cells or more, see the 8.4 million integration tutorial.
 
