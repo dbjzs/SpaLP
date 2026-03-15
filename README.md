@@ -31,6 +31,7 @@ pip install .
 
 ### 🚀Getting started Tutorial
 - Jupyter tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
+- Command line usage
 - The expected data input format of SpaLP is [AnnData](https://anndata.readthedocs.io/en/stable/).  
   The user needs to store the two-dimensional coordinates of the slices in the "obsm" variable and name it "spatial".  
   The preprocessed feature matrix needs to be stored in the "obsm" variable and named as "feat".
@@ -64,7 +65,6 @@ pip install .
 - configuration options. 
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
   
-### 🚀🚀Command line usage
   
 ### 🖥️ Computing resources and running time
 - All experiments in the manuscript were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
