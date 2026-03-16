@@ -28,7 +28,9 @@ conda activate SpaLP
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install .
 ```
-
+### 📁 Tutorial h5ad file
+- All h5ad files have been uploaded to the [zenodo repository](https://zenodo.org/records/18483604)
+  
 ### 🚀Getting started Tutorial
 - Jupyter tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
 - Command line usage
@@ -88,8 +90,6 @@ pip install .
 - For 3 million cells or more, see the 8.4 million integration tutorial.
 
 
-### 📁 Tutorial h5ad file
-- All h5ad files have been uploaded to the [zenodo repository](https://zenodo.org/records/18483604)
 
 
 ### Reference
