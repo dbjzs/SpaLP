@@ -4,6 +4,7 @@
 [![Stars](https://img.shields.io/github/stars/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/stargazers)
 [![Docs](https://readthedocs.org/projects/SpaLP/badge/?version=latest)](https://spalp.readthedocs.io/en/latest/index.html)
 [![Forks](https://img.shields.io/github/forks/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/forks)
+[![PyPI Downloads](https://img.shields.io/pepy/dt/SpaLP?logo=pypi)](https://pepy.tech/project/SpaLP)
 ![Python 3.10.13](https://img.shields.io/badge/python->=3.10-blue.svg)
 
 
