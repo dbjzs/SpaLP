@@ -276,20 +276,38 @@ def create_new_color_dict(
     return new_color_dict
 
 
+import numpy as np
+import pandas as pd
 from sklearn.preprocessing import normalize
-def transfer_labels_by_cosine(pre_adata, new_adata, label_key="Compartment", embedding_key="SpaLP"):
+from scipy.special import softmax
+from scipy.stats import entropy
+def transfer_labels_by_cosine(pre_adata, new_adata, label_key="Compartment", embedding_key="SpaLP",temperature=0.02):
     X_ref = pre_adata.obsm[embedding_key]
     X_new = new_adata.obsm[embedding_key]
     
-    labels_ref = pre_adata.obs[label_key].values
+    labels_ref = pre_adata.obs[label_key].astype(str).values
     
     X_ref_norm = normalize(X_ref, axis=1)
     X_new_norm = normalize(X_new, axis=1)
     cosine_sim = X_new_norm @ X_ref_norm.T
     
     nearest_idx = cosine_sim.argmax(axis=1)
+    pred_labels = labels_ref[nearest_idx]
+    new_adata.obs["Transfer_label"] = pred_labels
     
-    new_adata.obs["Transfer_label"] = labels_ref[nearest_idx]
-    new_adata.obs["Cosine_confidence"] = cosine_sim.max(axis=1)
+    temperature = temperature
+    sim_scaled = cosine_sim / temperature
+    cell_probs = softmax(sim_scaled, axis=1) 
+    unique_labels = np.unique(labels_ref)
+    class_probs = np.zeros((X_new.shape[0], len(unique_labels)))
+    
+    for i, label in enumerate(unique_labels):
+        mask = (labels_ref == label)
+        class_probs[:, i] = cell_probs[:, mask].sum(axis=1)
+
+    pred_indices = np.argmax(unique_labels[None, :] == pred_labels[:, None], axis=1)
+    
+    new_adata.obs["Confidence"] = class_probs[np.arange(len(pred_labels)), pred_indices]
+    new_adata.obs["Uncertainty"] = entropy(class_probs, axis=1)
     
     return new_adata
