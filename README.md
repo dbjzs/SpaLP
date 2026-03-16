@@ -28,6 +28,21 @@ conda activate SpaLP
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install .
 ```
+
+## Pypi Installation
+#### 🔧 environment
+SpaLP is available for Python 3.10. We recommend to train SpaLP models on a device with GPU support.  
+* Using the conda install environment
+```
+conda create -n SpaLP -c conda-forge python==3.10.13 libopenblas=0.3.25 -y
+conda activate SpaLP
+```
+#### 🛠️package
+* Then using pip install SpaLP.
+```
+pip install SpaLP
+```
+
 ### 📁 Tutorial h5ad file
 - All h5ad files have been uploaded to the [zenodo repository](https://zenodo.org/records/18483604)
   
