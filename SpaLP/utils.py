@@ -44,6 +44,10 @@ def build_neighbor_idx(coords, k):
     return torch.tensor(indices, dtype=torch.long)
 
 def prepare_inputs(adata,k, device):
+    if "spatial" not in adata.obsm:
+        raise KeyError("spatial coordinates not found in adata.obsm['spatial'].")
+    if 'feat' not in adata.obsm:
+        raise KeyError("Processed feature matrix not found in adata.obsm['feat'].")
     features = adata.obsm['feat']
     if hasattr(features, 'toarray'):
         features = features.toarray()
