@@ -10,7 +10,7 @@
 
 SpaLP (**Spa**tial **L**ocal **P**ooling) is a python package for ultra-large-scale spatial omics data, including spatial atlas building, niche identification, omics data reconstruction, multi-slice integration (within-platform & cross-platform), large-scale multi-omics integration, cross-platform generalized and zero-shot learning.  
 
-## Github Installation
+## Installation via Github
 #### 📥 Download
 ```
 git clone https://github.com/dbjzs/SpaLP.git
@@ -30,7 +30,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 pip install .
 ```
 
-## Pypi Installation
+## Installation via PyPi
 #### 🔧 environment
 SpaLP is available for Python 3.10. We recommend to train SpaLP models on a device with GPU support.  
 * Using the conda install environment
