@@ -64,6 +64,23 @@ pip install .
   For technical platforms with gene panels less than 2000, we recommend using all genes as input. 
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
   
+### Simple workflow
+  ```
+   from SpaLP.utils import prepare_inputs, set_seed,create_new_color_dict,Graph
+   from SpaLP.LP import SpatialLocalPooling
+   import torch 
+   import scanpy as sc
+   import numpy as np
+   import pandas as pd
+   import warnings
+   warnings.filterwarnings("ignore")
+   sc.pp.highly_variable_genes(adata, n_top_genes=2000, flavor='seurat_v3')
+   adata = adata[:,adata.var.highly_variable]
+   sc.pp.normalize_total(adata, inplace=True)
+   sc.pp.log1p(adata)
+   sc.pp.scale(adata)
+   adata.obsm['feat'] = adata.X
+  ```
   
 ### 🖥️ Computing resources and running time
 - All experiments in the manuscript were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
