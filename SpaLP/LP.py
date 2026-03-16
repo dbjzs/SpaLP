@@ -4,6 +4,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+from tqdm import tqdm
+from .utils import set_seed
 
 class MLP(nn.Module):
     def __init__(self, in_channels, out_channels, bn=False, activation_fn=None):
@@ -92,3 +94,89 @@ class SpatialLocalPooling(nn.Module):
         embedding = self.encoder(features, neighbor_idx)  # (N, C_mid)
         reconstructed = self.decoder(embedding)  # (N, C_in)
         return reconstructed, embedding
+
+        
+    def Train(self,graph,epochs=200,lr=1e-3,device=None,seed=7,mode="single-slice"):
+        """
+        Train the modelgraph:
+        - Single Graph object
+        - OR list of Graph objects (multi-slices)
+        """
+        set_seed(seed)
+        self.to(device)
+            
+        optimizer = optim.Adam(self.parameters(), lr=lr)
+        criterion = nn.MSELoss()
+        losses = []
+        # =========================
+        # Single-slice training
+        # =========================
+        if mode == "single-slice":
+            self.train()
+            pbar = tqdm(range(epochs), desc="Training(single-slices)", ncols=200)
+            for epoch in pbar:
+                peak = torch.cuda.max_memory_allocated(device) / 1024**3
+                optimizer.zero_grad()
+                reconstructed,embedding = self(graph.features, graph.neighbor_idx)
+                loss = criterion(reconstructed, graph.features)
+                loss.backward()
+                optimizer.step()
+                losses.append(loss.item())
+                pbar.set_postfix({"Epoch": epoch,"Loss": f"{loss.item():.4f}","PeakGPUmemory": f"{peak:.2f}GB"})
+                
+        # =========================
+        # multi-slice training
+        # =========================
+        elif mode == "multi-slices":
+            set_seed(seed)
+            self.train()
+            pbar = tqdm(range(epochs), desc="Training(multi-slices)", ncols=200)
+            for epoch in pbar:
+                total_loss = 0.0
+                num_batches = 0
+                for g in graph:  # graph is a list of Graphs
+                    features = g.features.to(device)
+                    neighbor_idx = g.neighbor_idx.to(device)
+                    optimizer.zero_grad()
+                    reconstructed, embedding = self(features, neighbor_idx)
+                    loss = criterion(reconstructed, features)
+                    loss.backward()
+                    optimizer.step()
+                    total_loss += loss.item()
+                    num_batches += 1
+                avg_loss = total_loss / max(num_batches, 1)
+                losses.append(avg_loss)
+                peak = torch.cuda.max_memory_allocated(device) / 1024**3
+                pbar.set_postfix({"Epoch": epoch,"Avg Loss": f"{avg_loss:.4f}","PeakGPUmemory": f"{peak:.2f}GB"})
+
+        else:
+            raise ValueError('mode must be "single-slice" or "multi-slices"')
+                
+            
+        
+    @torch.no_grad()
+    def get_embedding(self, graph,mode="single-slice",device=None):
+        """
+        Get embedding after training
+        """
+        if mode == "single-slice":
+            self.eval()
+            reconstructed, embedding = self(graph.features,graph.neighbor_idx)
+            return reconstructed.cpu().numpy(), embedding.cpu().numpy()
+
+        elif mode == "multi-slices":
+            all_recon = []
+            all_emb = []
+            for g in graph:  # graph is a list
+                features = g.features.to(device)
+                neighbor_idx = g.neighbor_idx.to(device)
+                reconstructed, embedding = self(features, neighbor_idx)
+    
+                all_recon.append(reconstructed.cpu())
+                all_emb.append(embedding.cpu())
+    
+            full_recon = torch.cat(all_recon, dim=0)
+            full_emb = torch.cat(all_emb, dim=0)
+            return full_recon.numpy(), full_emb.numpy()
+        else:
+            raise ValueError('mode must be "single-slice" or "multi-slices"')
