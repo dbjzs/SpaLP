@@ -30,7 +30,8 @@ pip install .
 ```
 
 ### 🚀Getting started Tutorial
-- Tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
+- Jupyter tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
+- Command line usage
 - The expected data input format of SpaLP is [AnnData](https://anndata.readthedocs.io/en/stable/).  
   The user needs to store the two-dimensional coordinates of the slices in the "obsm" variable and name it "spatial".  
   The preprocessed feature matrix needs to be stored in the "obsm" variable and named as "feat".
@@ -60,11 +61,11 @@ pip install .
    sc.pp.scale(adata)
    adata.obsm['feat'] = adata.X
   ```
-  For technical platforms with gene panels less than 2000, we recommend using all genes as input.
-  
+  For technical platforms with gene panels less than 2000, we recommend using all genes as input. 
 - Please use [issues](https://github.com/dbjzs/SpaLP/issues) to submit bug reports.
   
-### 🖥️ Configuration options and running time
+  
+### 🖥️ Computing resources and running time
 - All experiments in the manuscript were performed on a NVIDIA A800-SXM4-80 GB GPU and Intel(R) Xeon(R) Platinum 8462Y+(32 cores) CPU.
 - According to the tutorial, running time for the same configuration should < 1 minute on most datasets with million cells.
 - SpaLP requires that the computing device must have at least 1 CPU core.
