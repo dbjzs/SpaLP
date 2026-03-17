@@ -39,7 +39,7 @@ conda create -n SpaLP -c conda-forge python==3.10.13 libopenblas=0.3.25 -y
 conda activate SpaLP
 ```
 #### 🛠️package
-* Then using pip install SpaLP.
+* Then install SpaLP.
 ```
 pip install SpaLP
 ```
