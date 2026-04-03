@@ -113,7 +113,7 @@ class SpatialLocalPooling(nn.Module):
         # =========================
         if mode == "single-slice":
             self.train()
-            pbar = tqdm(range(epochs), desc="Training(single-slices)", ncols=200)
+            pbar = tqdm(range(epochs), desc="Training(single-slices)", ncols=150)
             for epoch in pbar:
                 peak = torch.cuda.max_memory_allocated(device) / 1024**3
                 optimizer.zero_grad()
@@ -130,7 +130,7 @@ class SpatialLocalPooling(nn.Module):
         elif mode == "multi-slices":
             set_seed(seed)
             self.train()
-            pbar = tqdm(range(epochs), desc="Training(multi-slices)", ncols=200)
+            pbar = tqdm(range(epochs), desc="Training(multi-slices)", ncols=150)
             for epoch in pbar:
                 total_loss = 0.0
                 num_batches = 0
