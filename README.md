@@ -5,6 +5,7 @@
 [![Docs](https://readthedocs.org/projects/SpaLP/badge/?version=latest)](https://spalp.readthedocs.io/en/latest/index.html)
 [![Forks](https://img.shields.io/github/forks/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/forks)
 [![PyPI Downloads](https://img.shields.io/pepy/dt/spalp?logo=pypi)](https://pepy.tech/project/spalp)
+![Zenodo Downloads](https://img.shields.io/badge/dynamic/json?color=blue&label=Zenodo%20Downloads&query=$.stats.downloads&url=https://zenodo.org/api/records/你的Record_ID)
 ![Python 3.10.13](https://img.shields.io/badge/python->=3.10-blue.svg)
 
 
