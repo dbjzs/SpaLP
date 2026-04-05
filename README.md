@@ -6,9 +6,8 @@
 [![Forks](https://img.shields.io/github/forks/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/forks)
 [![PyPI Downloads](https://img.shields.io/pepy/dt/spalp?logo=pypi)](https://pepy.tech/project/spalp)
 [![PyPI - Version](https://img.shields.io/pypi/v/spalp?logo=pypi)](https://pypi.org/project/spalp/)
-[![Zenodo Downloads](https://img.shields.io/badge/dynamic/json?color=blue&label=Zenodo%20Downloads&query=$.stats.unique_downloads&url=https://zenodo.org/api/records/18483604)](https://zenodo.org/record/18483604)
 ![Python 3.10.13](https://img.shields.io/badge/python->=3.10-blue.svg)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18483604.svg)](https://doi.org/10.5281/zenodo.18483604)
+[![Zenodo Downloads](https://img.shields.io/badge/dynamic/json?color=blue&label=Zenodo%20Downloads&query=$.stats.unique_downloads&url=https://zenodo.org/api/records/18483604)](https://zenodo.org/record/18483604)
 
 
 SpaLP (**Spa**tial **L**ocal **P**ooling) is a python package for ultra-large-scale spatial omics data, including spatial atlas building, niche identification, omics data reconstruction, multi-slice integration (within-platform & cross-platform), large-scale multi-omics integration, cross-platform generalized and zero-shot learning.  
