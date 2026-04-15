@@ -3,7 +3,7 @@
 </div>
                               
 <div align=center>
-<h2> If you find SpaLP useful for your research. Help us grow by clicking the ⭐ button!</h2>
+<h2> If SpaLP useful for your research. Help us grow by clicking the ⭐ button!</h2>
 </div>
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
