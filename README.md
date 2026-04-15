@@ -1,4 +1,4 @@
-<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="150"  alt="SpaLP-logo">
+                                <img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="150"  alt="SpaLP-logo">
 
 <div align=center>
 <h2> Enjoying SpaLP? Help us grow by clicking the ⭐ button!</h2>
