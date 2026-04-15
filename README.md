@@ -1,5 +1,9 @@
 <img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="150"  alt="SpaLP-logo">
 
+<div align=center>
+<h2> Enjoying SpaLP? Help us grow by clicking the ⭐ button!</h2>
+</div>
+
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
 [![Stars](https://img.shields.io/github/stars/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/stargazers)
 [![Docs](https://readthedocs.org/projects/SpaLP/badge/?version=latest)](https://spalp.readthedocs.io/en/latest/index.html)
