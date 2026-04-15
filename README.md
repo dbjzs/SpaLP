@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="300"  alt="SpaLP-logo" >
+<img src="https://github.com/dbjzs/SpaLP/blob/main/Logo.svg" width="200"  alt="SpaLP-logo" >
 </div>
                               
 <div align=center>
