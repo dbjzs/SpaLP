@@ -56,7 +56,6 @@ pip install SpaLP
   
 ### 🚀Getting started Tutorial
 - Jupyter tutorials and API documentation are available at [Tutorial](https://spalp.readthedocs.io/en/latest/index.html).
-- Command line usage
 - The expected data input format of SpaLP is [AnnData](https://anndata.readthedocs.io/en/stable/) object.  
   The user needs to store the two-dimensional coordinates of the slices in the "obsm" variable and name it "spatial".  
   The preprocessed feature matrix needs to be stored in the "obsm" variable and named as "feat".
