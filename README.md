@@ -97,7 +97,7 @@ pip install SpaLP
 - If your GPU device has a limited amount of GPU memory, you can use the CPU.
   The training time can be found at the bottom of the table.
   
-| Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|Running time|K-neighbors|Device|
+| Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|Running time|KNN|Device|
 |---------------------------|------|-------------|-------------|---------|---------|---------|--------|
 |2,127,707|329 genes|cross-platform|21.96GB|36GB|1min 02s|4|A800|
 |1,355,849|379 genes|Xenium|15.89GB|4.49GB|47s|3|A800|
