@@ -98,16 +98,16 @@ pip install SpaLP
   
 | Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|Running time|K-neighbors|Device|
 |---------------------------|------|-------------|-------------|---------|---------|---------|--------|
-|2,127,707|329 genes|cross-platform|21.96GB|36GB|1min 02s|4|A800-80GB|
-|1,355,849|379 genes|Xenium|15.89GB|4.49GB|47s|3|A800-80GB|
-|1,236,281|1000 genes|CosMx|30.15GB|8.07GB|1min 03s|4|A800-80GB|
-|696,314|377 genes|Xenium|13.41GB|3.24GB|39s|5|A800-80GB|
-|640,000|2000 genes|Simulation|29.68GB|7.87GB|52s|5|A800-80GB|
-|422,673|1022 genes|STARmapPLUS|14.85GB|6.22GB|34s|6|A800-80GB|
-|167,780|313 genes|Xenium|2.01GB|1.59GB|7s|3|A800-80GB|
-|48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|8|A800-80GB|
-|1,395,992|43 proteins|CODEX|5.29GB|3.81GB|25s|4|A800-80GB|
-|295,215|128 proteins|Stereo-CITE-seq|4.04GB|1.44GB|15s|4|A800-80GB|
+|2,127,707|329 genes|cross-platform|21.96GB|36GB|1min 02s|4|A800|
+|1,355,849|379 genes|Xenium|15.89GB|4.49GB|47s|3|A800|
+|1,236,281|1000 genes|CosMx|30.15GB|8.07GB|1min 03s|4|A800|
+|696,314|377 genes|Xenium|13.41GB|3.24GB|39s|5|A800|
+|640,000|2000 genes|Simulation|29.68GB|7.87GB|52s|5|A800|
+|422,673|1022 genes|STARmapPLUS|14.85GB|6.22GB|34s|6|A800|
+|167,780|313 genes|Xenium|2.01GB|1.59GB|7s|3|A800|
+|48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|8|A800|
+|1,395,992|43 proteins|CODEX|5.29GB|3.81GB|25s|4|A800|
+|295,215|128 proteins|Stereo-CITE-seq|4.04GB|1.44GB|15s|4|A800|
 
 
 - For 3 million cells or more, see the 8.4 million integration tutorial.
