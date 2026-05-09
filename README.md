@@ -94,7 +94,8 @@ pip install SpaLP
 - According to the tutorial, running time for the same configuration should < 1 minute on most datasets with million cells.
 - SpaLP requires that the computing device must have at least 1 CPU core.
 - The requirements for GPU memory and CPU memory of SpaLP are listed in the following table.
-- 
+- If your GPU device has a limited amount of GPU memory, you can use the CPU.
+  The training time can be found at the bottom of the table.
   
 | Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|Running time|K-neighbors|Device|
 |---------------------------|------|-------------|-------------|---------|---------|---------|--------|
@@ -108,7 +109,7 @@ pip install SpaLP
 |48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|8|A800|
 |1,395,992|43 proteins|CODEX|5.29GB|3.81GB|25s|4|A800|
 |295,215|128 proteins|Stereo-CITE-seq|4.04GB|1.44GB|15s|4|A800|
-
+|198,248|2000 genes|Stereo-seq|0GB|1.44GB|12min 25s|4|8462Y+(32 cores) CPU|
 
 - For 3 million cells or more, see the 8.4 million integration tutorial.
 
