@@ -109,7 +109,7 @@ pip install SpaLP
 |48,180 |950 genes|CosMx|1.85GB|0.26GB|7s|8|A800|
 |1,395,992|43 proteins|CODEX|5.29GB|3.81GB|25s|4|A800|
 |295,215|128 proteins|Stereo-CITE-seq|4.04GB|1.44GB|15s|4|A800|
-|198,248|2000 genes|Stereo-seq|0GB|1.44GB|12min 25s|4|8462Y+|
+|198,248|2000 genes|Stereo-seq|0GB|8.9GB|12min 25s|4|8462Y+|
 
 - For 3 million cells or more, see the [8.4 million integration tutorial](https://spalp.readthedocs.io/en/latest/tutorials/Spatial_omics/Multi_sample_integration_tutorial/8.4_Million_MERFISH_Mouse_Brain_Atlas_Tutorial.html).
 
