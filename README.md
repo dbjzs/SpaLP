@@ -96,7 +96,7 @@ pip install SpaLP
 - The requirements for GPU memory and CPU memory of SpaLP are listed in the following table.
 - 
   
-| Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|Reference running time|K-nearest neighbor|Device|
+| Cells                     |input genes/proteins|Platform|GPUmemory|CPUmemory|Running time|K-neighbors|Device|
 |---------------------------|------|-------------|-------------|---------|---------|---------|--------|
 |2,127,707|329 genes|cross-platform|21.96GB|36GB|1min 02s|4|A800-80GB|
 |1,355,849|379 genes|Xenium|15.89GB|4.49GB|47s|3|A800-80GB|
