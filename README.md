@@ -7,7 +7,7 @@
 </div>
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/dbjzs/SpaLP/blob/main/LICENSE)
-[![Stars](https://img.shields.io/github/stars/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/stargazers)
+[![Stars](https://badgen.net/github/stars/dbjzs/SpaLP?icon=github&color=yellow)](https://github.com/dbjzs/SpaLP/stargazers)
 [![Docs](https://readthedocs.org/projects/SpaLP/badge/?version=latest)](https://spalp.readthedocs.io/en/latest/index.html)
 [![Forks](https://img.shields.io/github/forks/dbjzs/SpaLP?logo=GitHub&color=yellow)](https://github.com/dbjzs/SpaLP/forks)
 [![PyPI Install](https://img.shields.io/pepy/dt/spalp?logo=pypi&label=%20Installation)](https://pepy.tech/project/spalp)
