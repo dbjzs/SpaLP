@@ -115,7 +115,7 @@ class SpatialLocalPooling(nn.Module):
             self.train()
             pbar = tqdm(range(epochs), desc="Training(single-slices)", ncols=150)
             for epoch in pbar:
-                peak = torch.cuda.max_memory_allocated(device) / 1024**3
+                peak = torch.cuda.max_memory_reserved(device) / 1024**3
                 optimizer.zero_grad()
                 reconstructed,embedding = self(graph.features, graph.neighbor_idx)
                 loss = criterion(reconstructed, graph.features)
@@ -146,7 +146,7 @@ class SpatialLocalPooling(nn.Module):
                     num_batches += 1
                 avg_loss = total_loss / max(num_batches, 1)
                 losses.append(avg_loss)
-                peak = torch.cuda.max_memory_allocated(device) / 1024**3
+                peak = torch.cuda.max_memory_reserved(device) / 1024**3
                 pbar.set_postfix({"Epoch": epoch,"Avg Loss": f"{avg_loss:.4f}","PeakGPUmemory": f"{peak:.2f}GB"})
 
         else:
